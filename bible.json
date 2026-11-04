@@ -1,0 +1,121 @@
+{
+ "series": "Last Guy Awake",
+ "tiktok_account": "storybyvote (Buffer channel name may still show ai_viral_video)",
+ "buffer": {
+  "organizationId": "6ae3605e97877ff731d769ca",
+  "storybyvote_channelId": "6ae361ab2f1f5ed6480fc6c7",
+  "thefeedfiller_channelId": "6ae360d42f1f5ed6480fb760",
+  "free_plan_limit": "10 scheduled posts per channel"
+ },
+ "drive": {
+  "tiktok_uploads_folderId": "18OzGHjuxuihyHQrU4lgcfy4S_kuF5fra",
+  "rule": "Only the folders 'Tiktok Uploads' (public link) and 'Claude' (private) may be touched"
+ },
+ "elevenlabs": {
+  "voice": "Jeremy - Casual Guy Next Door",
+  "voice_id": "5gaEGrWSk4v20HMfIhgC",
+  "model": "eleven_v4",
+  "note": "audio downloads need storage.googleapis.com allowed in Claude settings"
+ },
+ "character": {
+  "Max": "teen boy, messy dark brown hair, blue hoodie with white strings, navy jeans, white sneakers; drawn by make_max() in base.py",
+  "Lena": "girl, auburn hair with ponytail, red hoodie, dark jeans; make_lena() in code/part_ep3.py (recolored make_max plus long hair); carries a phone, flashlight and baseball bat"
+ },
+ "hud": {
+  "DAY": 1,
+  "PEOPLE AWAKE": 2
+ },
+ "episodes": [
+  {
+   "n": 1,
+   "posted": "2026-10-29 19:00 Berlin",
+   "buffer_postId": "6ae368b4f3a8aff3f355ed72",
+   "summary": "Max wakes up, everyone on Earth is asleep and cannot be woken (mom, drivers, mailman, news anchor). He searches all day. At night he locks the door, lies in bed and hears slow footsteps downstairs. A dark figure with glowing eyes stands at the bottom of the stairs. Max stays in bed, shadows of feet under his door.",
+   "poll": "Hide (under his bed) or Fight (grab a baseball bat and go downstairs)",
+   "result": "Hide (73% Hide, 27% Fight, 84 votes on day 1)",
+   "status": "veröffentlicht"
+  },
+  {
+   "n": 2,
+   "posted": "2026-10-30 19:00 Berlin",
+   "buffer_postId": "6ae4d4ca260ad0ee5bbdc5c4",
+   "status": "veröffentlicht",
+   "summary": "Recap intro (PREVIOUSLY, poll bars 73/27). Max hides under the bed. Footsteps, the handle moves. His phone lights up: message from an unknown number 'Don't let her see you.' The lock opens by itself, mom walks in sleepwalking (pink slippers), whispers 'He's awake' and walks out. From the window Max sees the whole street sleepwalking toward the old radio tower (red light). All at once they stop, turn around and stare up at Max's window with open eyes.",
+   "poll": "Call (the unknown number) or Run (out the back door)",
+   "result": "Call (67% Call, 33% Run, 32 votes)"
+  },
+  {
+   "n": 3,
+   "posted": "2026-10-31 12:30 Berlin",
+   "buffer_postId": "6ae5c98e1891472093ca22ff",
+   "status": "veröffentlicht",
+   "summary": "Recap (street staring at window, poll bars CALL 67 / RUN 33 revealed on 'call'). Max calls the unknown number. A girl named Lena answers whispering: she is awake too (HUD PEOPLE AWAKE 1 -> 2). The sleepwalkers walk toward his house. Lena: they hear every sound, get to the garage. Max sneaks down the stairs while the front door handle shakes, slips into the garage. Darkness, then a flashlight in his face: Lena with phone and baseball bat, grins 'Took you long enough.' Behind her on the wall: a polaroid photo of Max sleeping, taken last night.",
+   "poll": "Trust (Lena) or Escape (while he still can)",
+   "result": "TRUST 75 % / ESCAPE 25 % (20 Stimmen)"
+  },
+  {
+   "n": 4,
+   "posted": "2026-10-31 20:00 Berlin",
+   "buffer_postId": "6ae6349b1ee172cd6db88c23",
+   "drive_fileId": "1o2320gDNFUqSA9rghFnjlMRD2313ekMZ",
+   "status": "veröffentlicht",
+   "summary": "Recap (garage, poll bars TRUST 75 / ESCAPE 25 revealed on 'trust'). Lena turns the polaroid: on the back Max's address (14 Maple Lane) in his own handwriting; someone left it at her door tonight. Garage bulb dies, the whole city goes black window by window. Only the radio tower glows red and hums; every sleepwalker hums along in sync. Three bangs on the garage door. Lena kicks a rug aside: metal hatch with ladder, a tunnel under the street straight to the tower (red glow below). The garage door bends, pale fingers slide underneath. Max's phone buzzes: message from MOM: 'Lena is lying. Check her phone.' Lena slowly hides her phone behind her back.",
+   "poll": "Tunnel or Phone (grab Lena's phone)",
+   "result": "PHONE 73 % / TUNNEL 27 % (15 Stimmen)"
+  },
+  {
+   "n": 5,
+   "posted": "2026-11-01 19:00 Berlin",
+   "status": "veröffentlicht",
+   "summary": "Hook line 'Everyone on Earth fell asleep. Except two kids.' Recap (mom's message, bars TUNNEL 27 / PHONE 73 revealed on 'phone'). Max grabs Lena's phone; she whispers 'Don't look at the photos.' Gallery: hundreds of photos of Max sleeping, every night. Newest from 3 min ago shows Max and Lena in the garage from behind. The hatch is open, eyes and fingers climb up the ladder. Lena: she didn't take them, someone sends them to her every night. New photo arrives: Max right now, taken from inside the tunnel. The humming stops. A voice from the hatch whispers 'Max', in his own voice. HUD flickers PEOPLE AWAKE 3?",
+   "poll": "Slam (the hatch shut) or Look (inside)",
+   "result": "SLAM 75 % / LOOK 25 % (48 Stimmen)",
+   "buffer_postId": "6ae729531ee172cd6df53e76",
+   "drive_fileId": "1r1qX6wLFsBASuQtW22i2fvTqPugiI8Uv"
+  },
+  {
+   "n": 6,
+   "posted": "2026-11-02 19:00 Berlin",
+   "status": "veröffentlicht",
+   "summary": "Hook line. Recap (eyes in the tunnel, bars SLAM 75 / LOOK 25 revealed on 'slam'). Max slams the hatch, Lena drags a red toolbox on top. Three soft knocks from underneath, his own voice: 'Open up, Max. It's me.' Lena backs away: 'Look at your hands.' His hands are covered in dust, like he has been in the tunnel before. The garage door goes up by itself. The street is empty, no sleepwalkers, only hundreds of footprints leading to Max's house. New photo on Lena's phone: Max's bedroom right now, someone lying in his bed with his face (eyes open). HUD PEOPLE AWAKE 3?. Knocking starts again, faster.",
+   "poll": "Home (run to his room) or Hatch (open it)",
+   "result": null,
+   "buffer_postId": "6ae8cfc557030f5f9aac59a2",
+   "drive_fileId": "1HsvFpZ7c3a0_sDlSTjfXFcEgEUyPCteG"
+  }
+ ],
+ "open_threads": [
+  "Who wrote Max's address on the photo in his own handwriting and left it at Lena's door?",
+  "Who controls the sleepwalkers? Why the radio tower?",
+  "Why are only Max and Lena awake?",
+  "Why did mom whisper 'He's awake'?",
+  "Mom's number texted 'Lena is lying. Check her phone.' What is on Lena's phone?",
+  "Who is lying in Max's bed with his face? Why are Max's hands dusty from the tunnel?"
+ ],
+ "style_rules": [
+  "English in video",
+  "word by word captions aligned with pocketsphinx (align.py)",
+  "mood lighting, camera moves, synthesized ambient sound, fades",
+  "ending: split screen poll, VOTE IN THE COMMENTS, highlight option when spoken",
+  "AI generated label ON when posting",
+  "no copyrighted music, no real people or brands",
+  "Each episode starts with a short recap intro (max ~10 s) incl. the poll result"
+ ],
+ "code": {
+  "shared": [
+   "code/base.py",
+   "code/hudcap.py",
+   "code/align.py"
+  ],
+  "latest_scenes_file": "code/part_ep6.py",
+  "note": "latest_scenes_file is the scene/sound/render script of the newest episode; use it as the template for the next one and save the new one as code/part_epN.py. Since episode 2 every episode starts with a short recap intro (~10 s): PREVIOUSLY label, quick visuals of last episode, animated poll result bars, then the story continues. Since ep5: scene file is ep4 helpers (ep4_parts = part_ep4.py up to the BG section) + part_ep5.py. Video ends with a 1 s series cover end card (make_cover(PART)), Buffer thumbnailOffset = that moment. Pauses in the voice are shortened with ffmpeg silenceremove stop_duration=0.3. Since ep6: helpers = ep4_parts + ep5_parts (part_ep5.py up to its BG section), cover is frame 0 (gen_render: if t < 1/FPS return COVER). If pocketsphinx fails one sentence, set its word times by hand from silencedetect speech segments."
+ },
+ "sound_sources": {
+  "rule": "Real sound effects only from Pixabay (free license, no attribution needed). Pixabay blocks bots: open the search page in Kevin's Chrome (Claude in Chrome), read the cdn.pixabay.com/download/audio/...mp3 URL from the sound page with javascript, then curl it from the workspace (pixabay.com and cdn.pixabay.com are allowed). Never use myinstants.",
+  "files": {
+   "sfx/stairs.mp3": "1. Wood staircase, old, creaking, footsteps (freesound_community via Pixabay); good single steps at 3.39, 11.11, 11.73, 13.26 s"
+  }
+ },
+ "posting_rhythm": "Wieder täglich 19:00 Berlin (ab 01.11.). Jede Folge startet mit einem Einstiegssatz zur Grundidee vor dem Rückblick.",
+ "cover": "Fixed series cover (LAST GUY AWAKE + red PART N pill). Buffer thumbnailOffset was ignored by TikTok on ep5. Since ep6 the cover is the very first frame of the video (1 frame)."
+}
