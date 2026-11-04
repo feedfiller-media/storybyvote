@@ -79,9 +79,19 @@
    "status": "veröffentlicht",
    "summary": "Hook line. Recap (eyes in the tunnel, bars SLAM 75 / LOOK 25 revealed on 'slam'). Max slams the hatch, Lena drags a red toolbox on top. Three soft knocks from underneath, his own voice: 'Open up, Max. It's me.' Lena backs away: 'Look at your hands.' His hands are covered in dust, like he has been in the tunnel before. The garage door goes up by itself. The street is empty, no sleepwalkers, only hundreds of footprints leading to Max's house. New photo on Lena's phone: Max's bedroom right now, someone lying in his bed with his face (eyes open). HUD PEOPLE AWAKE 3?. Knocking starts again, faster.",
    "poll": "Home (run to his room) or Hatch (open it)",
-   "result": null,
+   "result": "HOME 77 % / HATCH 23 % (26 Stimmen)",
    "buffer_postId": "6ae8cfc557030f5f9aac59a2",
    "drive_fileId": "1HsvFpZ7c3a0_sDlSTjfXFcEgEUyPCteG"
+  },
+  {
+   "n": 7,
+   "posted": "2026-11-04 19:00 Berlin",
+   "status": "eingeplant",
+   "buffer_postId": "6aeb64c5a6d053c9c52c6715",
+   "video": "uploads/ep7.mp4",
+   "summary": "Hook. Recap (photo of someone with Max's face in his bed, bars HOME 77 / HATCH 23 revealed on 'home'). Max and Lena run home through the empty street, footprints all lead into his house. Front door wide open, stairs creak. His bedroom door is locked from the outside; Lena turns the key. The bed is empty but the blanket is still moving. On the pillow a note in Max's handwriting: 'Don't trust the one who came home.' Lena lifts her bat and points it at Max. Behind them the closet door clicks open (eyes inside). HUD PEOPLE AWAKE 3?.",
+   "poll": "Explain (to Lena) or Closet (check it)",
+   "result": null
   }
  ],
  "open_threads": [
@@ -90,7 +100,8 @@
   "Why are only Max and Lena awake?",
   "Why did mom whisper 'He's awake'?",
   "Mom's number texted 'Lena is lying. Check her phone.' What is on Lena's phone?",
-  "Who is lying in Max's bed with his face? Why are Max's hands dusty from the tunnel?"
+  "Who is lying in Max's bed with his face? Why are Max's hands dusty from the tunnel?",
+  "Who wrote the note 'Don't trust the one who came home' in Max's handwriting? Who is in the closet?"
  ],
  "style_rules": [
   "English in video",
@@ -107,7 +118,7 @@
    "code/hudcap.py",
    "code/align.py"
   ],
-  "latest_scenes_file": "code/part_ep6.py",
+  "latest_scenes_file": "pipeline/episodes/ep7_scenes.py",
   "note": "latest_scenes_file is the scene/sound/render script of the newest episode; use it as the template for the next one and save the new one as code/part_epN.py. Since episode 2 every episode starts with a short recap intro (~10 s): PREVIOUSLY label, quick visuals of last episode, animated poll result bars, then the story continues. Since ep5: scene file is ep4 helpers (ep4_parts = part_ep4.py up to the BG section) + part_ep5.py. Video ends with a 1 s series cover end card (make_cover(PART)), Buffer thumbnailOffset = that moment. Pauses in the voice are shortened with ffmpeg silenceremove stop_duration=0.3. Since ep6: helpers = ep4_parts + ep5_parts (part_ep5.py up to its BG section), cover is frame 0 (gen_render: if t < 1/FPS return COVER). If pocketsphinx fails one sentence, set its word times by hand from silencedetect speech segments."
  },
  "sound_sources": {
