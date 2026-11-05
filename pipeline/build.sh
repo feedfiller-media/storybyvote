@@ -2,7 +2,7 @@
 # Build one episode.  usage: pipeline/build.sh N [align|test "t1,t2,..."|render]
 # Work dir: /tmp/sbv_epN. It must contain voice.mp3 (ElevenLabs, pauses already shortened).
 # Needs: pipeline/episodes/epN_script.txt and pipeline/episodes/epN_scenes.py
-set -e
+set -e -o pipefail
 N=$1; STEP=${2:-render}; P=$(cd "$(dirname "$0")" && pwd); W=/tmp/sbv_ep$N
 mkdir -p $W && cd $W
 cp -r $P/assets $P/sfx $P/fonts . 2>/dev/null || true

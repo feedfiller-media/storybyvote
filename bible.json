@@ -86,11 +86,21 @@
   {
    "n": 7,
    "posted": "2026-11-04 19:00 Berlin",
-   "status": "eingeplant",
+   "status": "veröffentlicht",
    "buffer_postId": "6aeb64c5a6d053c9c52c6715",
    "video": "uploads/ep7.mp4",
    "summary": "Hook. Recap (photo of someone with Max's face in his bed, bars HOME 77 / HATCH 23 revealed on 'home'). Max and Lena run home through the empty street, footprints all lead into his house. Front door wide open, stairs creak. His bedroom door is locked from the outside; Lena turns the key. The bed is empty but the blanket is still moving. On the pillow a note in Max's handwriting: 'Don't trust the one who came home.' Lena lifts her bat and points it at Max. Behind them the closet door clicks open (eyes inside). HUD PEOPLE AWAKE 3?.",
    "poll": "Explain (to Lena) or Closet (check it)",
+   "result": "EXPLAIN 75 % / CLOSET 25 % (4 Stimmen)"
+  },
+  {
+   "n": 8,
+   "posted": "2026-11-05 19:11 Berlin",
+   "status": "veröffentlicht",
+   "buffer_postId": "6aecc6ce7c2c23ac24c83fc4",
+   "video": "uploads/ep8.mp4",
+   "summary": "Hook. Recap (Lena points the bat, closet clicks open; bars EXPLAIN 75 / CLOSET 25 revealed on 'explain'). Max raises his hands: he never wrote the note, he fell asleep and woke up with everyone gone. Lena: 'Then prove it.' Max shows the scar on his hand; Lena rolls up her sleeve, she has the exact same scar. The closet swings open: Lena's red hoodie hangs inside and a girl with Lena's face is asleep on the floor. Lena drops her bat. From the doorway a dark figure with red eyes says: 'Now you both know.' HUD PEOPLE AWAKE 3?.",
+   "poll": "Run (grab Lena and run) or Turn (around)",
    "result": null
   }
  ],
@@ -101,7 +111,8 @@
   "Why did mom whisper 'He's awake'?",
   "Mom's number texted 'Lena is lying. Check her phone.' What is on Lena's phone?",
   "Who is lying in Max's bed with his face? Why are Max's hands dusty from the tunnel?",
-  "Who wrote the note 'Don't trust the one who came home' in Max's handwriting? Who is in the closet?"
+  "Who wrote the note 'Don't trust the one who came home' in Max's handwriting? Who is in the closet?",
+  "Why do Max and Lena have the same scar? Who is the sleeping girl with Lena's face? Who stands in the doorway?"
  ],
  "style_rules": [
   "English in video",
@@ -118,7 +129,7 @@
    "code/hudcap.py",
    "code/align.py"
   ],
-  "latest_scenes_file": "pipeline/episodes/ep7_scenes.py",
+  "latest_scenes_file": "pipeline/episodes/ep8_scenes.py",
   "note": "latest_scenes_file is the scene/sound/render script of the newest episode; use it as the template for the next one and save the new one as code/part_epN.py. Since episode 2 every episode starts with a short recap intro (~10 s): PREVIOUSLY label, quick visuals of last episode, animated poll result bars, then the story continues. Since ep5: scene file is ep4 helpers (ep4_parts = part_ep4.py up to the BG section) + part_ep5.py. Video ends with a 1 s series cover end card (make_cover(PART)), Buffer thumbnailOffset = that moment. Pauses in the voice are shortened with ffmpeg silenceremove stop_duration=0.3. Since ep6: helpers = ep4_parts + ep5_parts (part_ep5.py up to its BG section), cover is frame 0 (gen_render: if t < 1/FPS return COVER). If pocketsphinx fails one sentence, set its word times by hand from silencedetect speech segments."
  },
  "sound_sources": {
